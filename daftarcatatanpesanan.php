@@ -50,7 +50,7 @@
 			echo "<td>".$catatan['berat_barang']."</td>";
 			echo "<td>".$catatan['total_harga']."</td>";
 			echo "<td>".$catatan['tanggal_masuk']."</td>";
-			echo "<td>".$catatan['tanggal_selesai']."</td>";
+			echo "<td>".$catatan['tanggal_keluar']."</td>";
 			echo "<td>".$catatan['idkaryawan']."</td>";
 			echo "<td>".$catatan['idadmin']."</td>";
 
