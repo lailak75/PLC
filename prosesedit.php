@@ -11,13 +11,13 @@ if(isset($_POST['simpan'])){
 	$bb = $_POST['berat_barang'];
 	$th = $_POST['total_harga'];
 	$tm = $_POST['tanggal_masuk'];
-	$ts = $_POST['tanggal_selesai'];
+	$tk = $_POST['tanggal_keluar'];
 	$idkaryawan = $_POST['idkaryawan'];
 	$idadmin = $_POST['idadmin'];
 
 	// buat query update
 	$query = pg_query("UPDATE catatan_pesanan
-	SET idpesanan='$idpesanan', idmahasiswa='$idmahasiswa', idusaha='$idusaha', jenis_barang='$jb', berat_barang='$bb', total_harga='$th', tanggal_masuk='$tm', tanggal_selesai='$ts', idkaryawan='$idkaryawan', idadmin='$idadmin'
+	SET idpesanan='$idpesanan', idmahasiswa='$idmahasiswa', idusaha='$idusaha', jenis_barang='$jb', berat_barang='$bb', total_harga='$th', tanggal_masuk='$tm', tanggal_keluar='$tk', idkaryawan='$idkaryawan', idadmin='$idadmin'
 	WHERE idpesanan=$idpesanan");
 
 	// apakah query simpan berhasil?
