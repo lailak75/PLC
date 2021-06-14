@@ -10,12 +10,12 @@ if(isset($_POST['daftar'])){
 	$bb = $_POST['berat_barang'];
 	$th = $_POST['total_harga'];
 	$tm = $_POST['tanggal_masuk'];
-	$ts = $_POST['tanggal_selesai'];
+	$tk = $_POST['tanggal_keluar'];
 	$idkaryawan = $_POST['idkaryawan'];
 	$idadmin = $_POST['idadmin'];
 
 	// buat query
-$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_selesai, idkaryawan, idadmin) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$ts', '$idkaryawan', '$idadmin')");
+$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_keluar, idkaryawan, idadmin) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$tk', '$idkaryawan', '$idadmin')");
 
 	// apakah query simpan berhasil?
 	if( $query==TRUE ) {
