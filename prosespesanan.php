@@ -15,7 +15,7 @@ if(isset($_POST['daftar'])){
 	$idadmin = $_POST['idadmin'];
 
 	// buat query
-$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_selesai, idkaryawan, idusaha) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$ts', '$idkaryawan', '$idadmin')");
+$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_selesai, idkaryawan, idadmin) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$ts', '$idkaryawan', '$idadmin')");
 
 	// apakah query simpan berhasil?
 	if( $query==TRUE ) {
