@@ -40,26 +40,26 @@
 		// $query = mysqli_query($db, $sql);
 
 
-		while($catatanpesanan = pg_fetch_array($query)){
+		while($catatan = pg_fetch_array($query)){
 			echo "<tr>";
 
-			echo "<td>".$catatanpesanan['idpesanan']."</td>";
-			echo "<td>".$catatanpesanan['idmahasiswa']."</td>";
-			echo "<td>".$catatanpesanan['idusaha']."</td>";
-			echo "<td>".$catatanpesanan['jenis_barang']."</td>";
-			echo "<td>".$catatanpesanan['berat_barang']."</td>";
-			echo "<td>".$catatanpesanan['total_harga']."</td>";
-			echo "<td>".$catatanpesanan['tanggal_masuk']."</td>";
-			echo "<td>".$catatanpesanan['tanggal_selesai']."</td>";
-			echo "<td>".$catatanpesanan['idkaryawan']."</td>";
-			echo "<td>".$catatanpesanan['idadmin']."</td>";
+			echo "<td>".$catatan['idpesanan']."</td>";
+			echo "<td>".$catatan['idmahasiswa']."</td>";
+			echo "<td>".$catatan['idusaha']."</td>";
+			echo "<td>".$catatan['jenis_barang']."</td>";
+			echo "<td>".$catatan['berat_barang']."</td>";
+			echo "<td>".$catatan['total_harga']."</td>";
+			echo "<td>".$catatan['tanggal_masuk']."</td>";
+			echo "<td>".$catatan['tanggal_selesai']."</td>";
+			echo "<td>".$catatan['idkaryawan']."</td>";
+			echo "<td>".$catatan['idadmin']."</td>";
 
 			echo "<td>";
-			echo "<a href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
+			echo "<a href='hapus.php?id=".$catatan['idpesanan']."'>Hapus</a>";
 			echo "</td>";
 
 			echo "<td>";
-			echo "<a href='formedit.php?id=".$siswa['id']."'>Edit</a>";
+			echo "<a href='formedit.php?id=".$catatan['idpesanan']."'>Edit</a>";
 			echo "</td>";
 
 			echo "</tr>";
