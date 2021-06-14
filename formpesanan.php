@@ -39,8 +39,8 @@
 			<input type="date" name="tanggal_masuk" placeholder="DD/MM/YYYY" />
 		</p>
 		<p>
-			<label for="tanggal_selesai">Tanggal Selesai: </label>
-			<input type="date" name="Tanggal Selesai" placeholder="DD/MM/YYYY" />
+			<label for="tanggal_keluar">Tanggal Selesai: </label>
+			<input type="date" name="tanggal_keluar" placeholder="DD/MM/YYYY" />
 		</p>
 		<p>
 			<label for="idkaryawan">ID Karyawan: </label>
