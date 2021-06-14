@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pendaftaran Siswa Baru | SMK Coding</title>
+	<title>Formulir Pemesanan Laundry | PLC (PPKU Laundry Center)</title>
 </head>
 
 <body>
 	<header>
-		<h3>Pendaftaran Siswa Baru</h3>
-		<h1>SMK Coding</h1>
+		<h3>PPKU Laundry Center</h3>
+		<h1>(PLC)</h1>
 	</header>
 
 	<h4>Menu</h4>
