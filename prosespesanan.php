@@ -15,15 +15,15 @@ if(isset($_POST['daftar'])){
 	$idadmin = $_POST['idadmin'];
 
 	// buat query
-$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_keluar, idkaryawan, idadmin) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$tk', '$idkaryawan', '$idadmin')");
+	$query = pg_query("INSERT INTO catatan_pesanan (idpesanan, idmahasiswa, idusaha, jenis_barang, berat_barang, total_harga, tanggal_masuk, tanggal_keluar, idkaryawan, idadmin) VALUEs ('$idpesanan', '$idmahasiswa', '$idusaha', '$jb', '$bb', '$th', '$tm', '$tk', '$idkaryawan', '$idadmin')");
 
 	// apakah query simpan berhasil?
 	if( $query==TRUE ) {
 		// kalau berhasil alihkan ke halaman index.php dengan status=sukses
-		header('Location: index.php?status=sukses');
+		header('Location: halamanawal.php?status=sukses');
 	} else {
 		// kalau gagal alihkan ke halaman indek.ph dengan status=gagal
-		header('Location: index.php?status=gagal');
+		header('Location: halamanawal.php?status=gagal');
 	}
 
 
