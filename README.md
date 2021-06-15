@@ -22,7 +22,7 @@ Rumusan masalah yang akan dibahas dalam proyek akhir ini terdiri dari :
    4. Menggunakan catatan laundry berbasis website agar memudahkan pihak laundry dalam pelayanan laundry.
 
 ## Tujuan
-	Tujuan pelaksanaan proyek akhir ini adalah membuat sistem pencatatan laundry berbasis website yang efektif dan efisien sehingga memudahkan pihak laundry dalam mengetahui data pelanggan.
+Tujuan pelaksanaan proyek akhir ini adalah membuat sistem pencatatan laundry berbasis website yang efektif dan efisien sehingga memudahkan pihak laundry dalam mengetahui data pelanggan.
       
 ## Batasan Masalah
 Batasan masalah yang akan dibahas dalam proyek akhir ini adalah:
