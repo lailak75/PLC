@@ -15,14 +15,6 @@
 			<input type="text" name="idpesanan" placeholder="ID Pesanan" />
 		</p>
 		<p>
-			<label for="idmahasiswa">NIM Mahasiswa: </label>
-			<input type="text" name="idmahasiswa" placeholder="NIM Mahasiswa" />
-		</p>
-		<p>      
-			<label for="idusaha">ID Usaha: </label>
-			<input type="text" name="idusaha" placeholder="ID Usaha" />    
-		</p>
-		<p>
 			<label for="jenis_barang">Jenis Barang: </label>
 			<input type="text" name="jenis_barang" placeholder="Jenis Barang" />
 		</p>
@@ -43,12 +35,12 @@
 			<input type="date" name="tanggal_keluar" placeholder="DD/MM/YYYY" />
 		</p>
 		<p>
-			<label for="idkaryawan">ID Karyawan: </label>
-			<input type="text" name="idkaryawan" placeholder="ID Karyawan" />
+			<label for="idmahasiswa">NIM Mahasiswa: </label>
+			<input type="text" name="idmahasiswa" placeholder="NIM Mahasiswa" />
 		</p>
-		<p>
-			<label for="idadmin">ID Admin: </label>
-			<input type="text" name="idadmin" placeholder="ID Admin" />
+		<p>      
+			<label for="idusaha">ID Usaha: </label>
+			<input type="text" name="idusaha" placeholder="ID Usaha" />    
 		</p>
 		<p>
 			<input type="submit" value="Daftar" name="daftar" />
