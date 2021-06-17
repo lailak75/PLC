@@ -42,5 +42,5 @@ Batasan masalah yang akan dibahas dalam proyek akhir ini adalah:
 
 # Implementasi
 # Hasil Implementasi
-# Pembagian Kerja Kelompok
-# Lampiran
+
+
