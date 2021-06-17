@@ -40,7 +40,6 @@ Batasan masalah yang akan dibahas dalam proyek akhir ini adalah:
 ## Diagram Skematik
   ![Relasional-Page-2](https://user-images.githubusercontent.com/84852345/121996936-b4338180-cdd3-11eb-8aef-a088cf7a5979.png)
 
-# Implementasi
-# Hasil Implementasi
+
 
 
